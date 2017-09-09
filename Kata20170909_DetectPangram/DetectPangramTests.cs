@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Kata20170909_DetectPangram
 {
     [TestClass]
-    public class UnitTest1
+    public class DetectPangramTests
     {
         [TestMethod]
         public void input_all_letters_should_return_true()
@@ -44,8 +44,7 @@ namespace Kata20170909_DetectPangram
     {
         public bool IsPangram(string str)
         {
-            var letterCount = str.ToLower().Where(c => c >= 97 && c <= 122).Distinct().Count();
-            return letterCount == 26;
+            return str.ToLower().Where(char.IsLetter).Distinct().Count() == 26;
         }
     }
 }
