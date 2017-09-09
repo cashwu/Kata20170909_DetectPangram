@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata20170909_DetectPangram", "Kata20170909_DetectPangram\Kata20170909_DetectPangram.csproj", "{008A472F-CD92-4D37-9D72-7617DE9CAEA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{008A472F-CD92-4D37-9D72-7617DE9CAEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008A472F-CD92-4D37-9D72-7617DE9CAEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008A472F-CD92-4D37-9D72-7617DE9CAEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008A472F-CD92-4D37-9D72-7617DE9CAEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {430D8DB3-CA53-4E48-9E9E-381EA6EDF700}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 487719bc-e4fe-4f59-a3e1-07fe7b57e9a0
+	EndGlobalSection
+EndGlobal
