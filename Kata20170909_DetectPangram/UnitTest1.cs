@@ -19,6 +19,12 @@ namespace Kata20170909_DetectPangram
             PangramShouldBeFalse("bcdefghijklmnopqrstuvwxyz");
         }
 
+        [TestMethod]
+        public void input_all_letters_have_whitespace_should_return_true()
+        {
+            PangramShouldBeTrue("abc deno pqr stu vwxf ghi jkl m yz");
+        }
+
         private static void PangramShouldBeFalse(string str)
         {
             var kata = new Kata();
@@ -38,7 +44,7 @@ namespace Kata20170909_DetectPangram
     {
         public bool IsPangram(string str)
         {
-            var letterCount = str.ToLower().Where(c => c >= 97 || c <= 122).Distinct().Count();
+            var letterCount = str.ToLower().Where(c => c >= 97 && c <= 122).Distinct().Count();
             return letterCount == 26;
         }
     }
